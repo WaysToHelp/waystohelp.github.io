@@ -16,6 +16,14 @@
         }
     </style>
 
+    <script>
+        window.addEventListener('load', function () {
+            document.querySelector('#languageSelector').onchange = function () {
+                window.location.href = `/${this.value}`
+            }
+        })
+    </script>
+
 </head>
 
 <body class="container-lg px-xl-5">
