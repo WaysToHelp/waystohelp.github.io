@@ -1,25 +1,68 @@
 ---
 layout: default
-title: Help Ukraine!
+title: Everybody can help Ukraine!
 ---
 
-<h1>{{ page.title}}</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex w-100">
+                <li class="nav-item me-auto">
+                    <a class="nav-link active" aria-current="page" href="http://rigatechgirls.com/hackathon">Riga
+                        TechGirls</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">EN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+
+<h1 class="text-center m-5">{{ page.title}}</h1>
 <div>
     {{ site.data.en.tags.money }}
     {% for tag in site.data.en.tags %}
-    <section class="m-3 p-3 border">
-        <article>
-            <h2>{{ tag.name }}</h2>
-            <div>{{ tag.description }}</div>
-        </article>
-        {% for project in site.data.en.projects %}
-        {% if project.tags contains tag.id %}
-        <article class="m-3">
-            <h3>{{ project.name }}</h3>
-            <div>{{ project.description }}</div>
-        </article>
-        {% endif %}
-        {% endfor %}
-    </section>
+    <div class="row d-flex {% cycle 'flex-row', 'flex-row-reverse' %}">
+        <section class="accordion m-3 col">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">
+                        <div class="stretched-link" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-{{ tag.id }}">
+                            {{ tag.name }}
+                        </div>
+                    </h2>
+                    <div class="card-text">
+                        {{ tag.description }}
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-collapse collapse" id="collapse-{{ tag.id }}">
+                    {% for project in site.data.en.projects %}
+                    {% if project.tags contains tag.id %}
+                    <article class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ project.name }}</h5>
+                            <div class="card-text">{{ project.description }}</div>
+                        </div>
+                    </article>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <figure class="figure col-4 p-2 text-center">
+            <img src="https://via.placeholder.com/200" class="figure-img img-fluid rounded" />
+        </figure>
+    </div>
     {% endfor %}
 </div>
