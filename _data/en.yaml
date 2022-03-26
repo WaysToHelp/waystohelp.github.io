@@ -1,0 +1,45 @@
+---
+tags:
+  - id: money
+    name: I have money
+    description: I would like to donate to a charity helping Ukrainian refugees
+
+  - id: volunteering
+    name: I have free time
+    description: I would like to help directly by getting involved with volunteering
+
+  - id: driving
+    name: I have a car
+    description: I have a car and a driving license and am willing to help refugees travel around Europe
+
+projects:
+  - id: bank-gov-ua
+    regions:
+      - europe
+    name: The National Bank of Ukraine
+    description: >
+      The National Bank of Ukraine opened a special account to raise funds for Ukraine’s Armed Forces.
+
+      Transfers in both foreign currency (U.S. dollars, euros, UK pounds) and hryvnias possible
+    url: https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi
+    tags:
+      - money
+
+  - id: ziedot-lv
+    regions:
+      - lv
+      - lt
+    name: Ziedot.lv (Latvian charity)
+    description: The Ziedot.lv charity fundraising site has already raised more than 2 million euros. Fuel and first aid supplies are being sent to Ukraine in co-operation with the Ministry of Defense.
+    url: https://www.ziedot.lv/en/stand-with-ukraine-4203
+    tags:
+      - money
+
+  - id: redcross-ee
+    regions:
+      - ee
+    name: Estonian Red Cross
+    description: Estonian Red Cross is looking for voulnteers to provide first aid
+    url: https://redcross.ee/tule-vabatahtlikuks/
+    tags:
+      - volunteering
