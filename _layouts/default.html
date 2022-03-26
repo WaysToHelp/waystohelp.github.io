@@ -10,10 +10,18 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
+    <style>
+        section.accordion>.card:hover {
+            background-color: #eee;
+        }
+    </style>
+
 </head>
 
-<body class="container">
-    {{ content }}
+<body class="container-lg px-xl-5">
+    <div class="container-lg px-xl-5">
+        {{ content }}
+    </div>
 </body>
 
 </html>

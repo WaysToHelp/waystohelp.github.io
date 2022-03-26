@@ -3,7 +3,7 @@ layout: default
 title: Everybody can help Ukraine!
 ---
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,16 +11,19 @@ title: Everybody can help Ukraine!
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 d-flex w-100">
+            <ul class="navbar-nav mb-lg-0 d-flex w-100">
                 <li class="nav-item me-auto">
-                    <a class="nav-link active" aria-current="page" href="http://rigatechgirls.com/hackathon">Riga
+                    <a class="nav-link" aria-current="page" href="http://rigatechgirls.com/hackathon">Riga
                         TechGirls</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">EN</a>
+                    <select class="nav-link custom-select mx-2" style="padding-right:0">
+                        <option selected value="EN">EN</option>
+                        <option value="LV">LV</option>
+                    </select>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#">Contact us</a>
                 </li>
             </ul>
         </div>
@@ -31,7 +34,7 @@ title: Everybody can help Ukraine!
     {{ site.data.en.tags.money }}
     {% for tag in site.data.en.tags %}
     <div class="row d-flex {% cycle 'flex-row', 'flex-row-reverse' %}">
-        <section class="accordion m-3 col">
+        <section class="accordion p-3 col-md-8">
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title">
@@ -40,9 +43,10 @@ title: Everybody can help Ukraine!
                             {{ tag.name }}
                         </div>
                     </h2>
-                    <div class="card-text">
+                    <p class="card-text">
                         {{ tag.description }}
-                    </div>
+                    </p>
+                    <a href="#" class="btn btn-primary">Show ways to help</a>
                 </div>
             </div>
             <div class="accordion">
@@ -52,7 +56,10 @@ title: Everybody can help Ukraine!
                     <article class="card">
                         <div class="card-body">
                             <h5 class="card-title">{{ project.name }}</h5>
-                            <div class="card-text">{{ project.description }}</div>
+                            <p class="card-text">{{ project.description }}</p>
+                            <div class="text-truncate">
+                                <a href="{{ project.url }}">{{ project.url }}</a>
+                            </div>
                         </div>
                     </article>
                     {% endif %}
@@ -60,7 +67,7 @@ title: Everybody can help Ukraine!
                 </div>
             </div>
         </section>
-        <figure class="figure col-4 p-2 text-center">
+        <figure class="figure col-md-4 p-2 d-none d-md-block text-center">
             <img src="https://via.placeholder.com/200" class="figure-img img-fluid rounded" />
         </figure>
     </div>
