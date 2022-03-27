@@ -248,12 +248,56 @@ projects:
     tags:
       - money
 
-  - id: ukraine-ua
+           
+  - id: pagulasabi-ee
     regions:
-      - eu
-    name: The National Bank of Ukraine
-    description: The National Bank of Ukraine has decided to open a special fundraising account to support the Armed Forces of Ukraine
-    url: https://ukraine.ua/news/donate-to-the-nbu-fund/
-    source:
+      - ee
+    name: Estonian Refugee Council
+    description: Volunteers participate in Refugee Aid activities primarily as adaptation mentors and language partners, but we also offer refugees the opportunity to work as mentors.
+    url: https://www.pagulasabi.ee/tule-vabatahtlikuks
+    source: 
     tags:
+      - free
+      - languages
+      
+                
+  - id: redcross-ee
+    regions:
+      - ee
+    name: Estonian Red Cross
+    description: The Estonian Red Cross operates throughout Estonia: we teach first aid, we work on prevention, we help the most vulnerable members of society.
+    url: redcross.ee/tule-vabatahtlikuks
+    source: 
+    tags:
+      - free
+      - medicine
+      
+                      
+  - id: palidzibaukrainai-lv
+    regions:
+      - lv
+    name: Tavi Draugi
+    description: The association Tavi Draugi organize charity and other events (volunteering, donate goods etc)
+    url: https://www.palidzibaukrainai.lv/?lang=en
+    source: 
+    tags:
+      - free
+      - driving
       - money
+      - volunteering
+      
+                           
+  - id: ukraine-latvia-com
+    regions:
+      - lv
+    name: Ukraine-Latvia
+    description: The official website of assistance to refugees from ukraine to latvia
+    url: https://www.ukraine-latvia.com/
+    source: 
+    tags:
+      - free
+      - driving
+      - money
+      - volunteering
+      - accomodation
+      
