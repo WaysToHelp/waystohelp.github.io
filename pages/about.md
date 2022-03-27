@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /contacts
+permalink: /about
 ---
 
 # About WaysToHelp.eu
