@@ -35,7 +35,7 @@
         }
 
         nav.navbar,
-        footer {
+        footer>div {
             background-color: #9dbeb8 !important;
         }
     </style>
@@ -52,18 +52,46 @@
 
 <body class="container-lg px-xl-5">
     <div class="container-lg px-xl-5">
-        {{ content }}
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 d-flex w-100">
+                        <li class="nav-item me-auto">
+                            <a class="nav-link btn btn-light btn-sm" aria-current="page"
+                                href="http://rigatechgirls.com/hackathon">Riga
+                                TechGirls</a>
+                        </li>
+                        <li class="nav-item">
+                            <select class="nav-link custom-select mx-2" style="padding-right:0" id="languageSelector">
+                                <option selected value="EN">EN</option>
+                                <option value="LV">LV</option>
+                            </select>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-light btn-sm" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        <section class="container">
+            {{ content }}
+        </section>
     </div>
+    <footer class="text-center text-lg-start px-xl-5">
+        <div class="p-3">
+            Website published under
+            <a class="text-dark" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a> license.
+            Contribute on <a class="text-dark" href="https://github.com/WaysToHelp/waystohelp.github.io">Github</a>.
+        </div>
+        <!-- Copyright -->
+    </footer>
+
 </body>
-
-
-<footer class="text-center text-lg-start">
-    <div class="p-3">
-        Website published under
-        <a class="text-dark" href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a> license.
-        Contribute on <a class="text-dark" href="https://github.com/WaysToHelp/waystohelp.github.io">Github</a>.
-    </div>
-    <!-- Copyright -->
-</footer>
 
 </html>
