@@ -2,32 +2,6 @@
 layout: default
 ---
 
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-lg-0 d-flex w-100">
-                <li class="nav-item me-auto">
-                    <a class="nav-link btn btn-light btn-sm" aria-current="page"
-                        href="http://rigatechgirls.com/hackathon">Riga
-                        TechGirls</a>
-                </li>
-                <li class="nav-item">
-                    <select class="nav-link custom-select mx-2" style="padding-right:0" id="languageSelector">
-                        <option selected value="EN">EN</option>
-                        <option value="LV">LV</option>
-                    </select>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-light btn-sm" href="#">Contact us</a>
-                </li>
-            </ul>
-        </div>
-</nav>
 
 <div class="p-4 p-md-5 rounded text-center m-auto"
     style="background-image: url('/assets/ukraine.png'); background-size: 100% 100%; background-repeat: no-repeat;">
@@ -41,6 +15,8 @@ layout: default
     </div>
 </div>
 
+</li>
+</ul>
 <div>
     {{ site.data.en.tags.money }}
     {% for tag in site.data.en.tags %}
