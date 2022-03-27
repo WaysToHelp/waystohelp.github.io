@@ -28,7 +28,7 @@ layout: default
                     <p class="card-text">
                         {{ tag.description | newline_to_br }}
                     </p>
-                    <button type="button" class="btn btn-secondary stretched-link" data-bs-toggle="collapse"
+                    <button type="button" class="rounded-3 btn btn-secondary stretched-link" data-bs-toggle="collapse"
                         data-bs-target="#collapse-{{ tag.id }}">
                         Shows ways to help
                     </button>
@@ -46,11 +46,12 @@ layout: default
                             <hr />
 
                             <div class="text-center">
-                                <a class="btn btn-primary" role="button" href="{{ project.url }}">Link to the
+                                <a class="btn btn-primary rounded-3" role="button" href="{{ project.url }}">Link to the
                                     website</a>
 
                                 {% if project.source %}
-                                <a class="btn btn-secondary" role="button" href="{{ project.source }}">Source</a>
+                                <a class="btn btn-secondary rounded-3" role="button"
+                                    href="{{ project.source }}">Source</a>
                                 {% endif %}
                             </div>
                         </div>
