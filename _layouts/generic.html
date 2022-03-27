@@ -2,6 +2,13 @@
 layout: default
 ---
 
-<section class="container my-5">
+<nav aria-label="breadcrumb" class="container mt-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+</nav>
+
+<section class="container my-3">
     {{ content }}
 </section>

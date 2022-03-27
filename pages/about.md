@@ -1,6 +1,7 @@
 ---
 layout: generic
 permalink: /about
+title: About
 ---
 
 # About WaysToHelp.eu
