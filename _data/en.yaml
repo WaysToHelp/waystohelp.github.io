@@ -62,7 +62,17 @@ projects:
     url: https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi
     tags:
       - money
-
+ 
+  - id: savelife-in-ua
+    regions:
+      - eu
+    name: Come back alive
+    description: 'Come back alive' is the biggest organization providing support to the Armed Forces of Ukraine.
+    url: https://savelife.in.ua/en/donate/
+    source: 
+    tags:
+      - money
+ 
   - id: ziedot-lv
     regions:
       - lv
@@ -217,3 +227,40 @@ projects:
     tags:
       - accomodation
       - languages
+      
+      
+  - id: voices-org-ua
+    regions:
+      - eu
+    name: Who we are
+    description: Foundation for psychological and psychosocial assistance to children affected by the war 
+    url: https://voices.org.ua/en/who-we-are/
+    source: 
+    tags:
+      - money
+      
+           
+  - id: redcross-org-ua
+    regions:
+      - eu
+    name: The Ukrainian Red Cross
+    description: Donate to support the Ukrainian Red Cross to help civilians in this difficult time for Ukraine
+    url: https://redcross.org.ua/en/2022/02/donate-to-support-the-ukrainian-red-cross-to-help-civilians-in-this-difficult-time-for-ukraine
+    source: 
+    tags:
+      - money
+ 
+           
+  - id: ukraine-ua
+    regions:
+      - eu
+    name: The National Bank of Ukraine
+    description: The National Bank of Ukraine has decided to open a special fundraising account to support the Armed Forces of Ukraine
+    url: https://ukraine.ua/news/donate-to-the-nbu-fund/
+    source: 
+    tags:
+      - money
+ 
+      
+      
+
