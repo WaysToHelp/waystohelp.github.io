@@ -43,3 +43,15 @@ projects:
     url: https://redcross.ee/tule-vabatahtlikuks/
     tags:
       - volunteering
+
+  - id: crypto
+    regions:
+      - europe
+    name: Cryptocurrencies
+    description: >
+      Many Ukrainian government agencies and charities have embraced cryptocurrencies. However when sending donations through blockchain, it is extremely important to make sure you're using official address as the risk of scams is very high.
+
+      Here is a large list of agencies and charities that accept crypto alongside with the correct addresses. List is trustworthy as it is sourced from the government website, however please do your own research!
+    url: https://business.diia.gov.ua/cases/novini/verified-ukraine-donations-list
+    tags:
+      - money
