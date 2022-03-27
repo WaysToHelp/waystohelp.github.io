@@ -301,3 +301,32 @@ projects:
       - volunteering
       - accomodation
       
+                                
+  - id: creativesforukraine-com
+    regions:
+      - lt
+    name: Creatives for Ukraine 
+    description: This is an open platform for creatives from around the world showing solidarity with the people of Ukraine, who are fighting for the world as we know it.
+    url: https://creativesforukraine.com/about/
+    source: 
+    tags:
+      - free
+      - volunteering
+      
+                                     
+  - id: facebook-com
+    regions:
+      - lv
+    name: Facebook.com
+    description: Assistance to Ukrainians in everyday matters
+    url: https://www.facebook.com/groups/1716299315047796
+    source: 
+    tags:
+      - free
+      - volunteering
+     
+      
+      
+      
+      
+      
