@@ -15,8 +15,6 @@ layout: default
     </div>
 </div>
 
-</li>
-</ul>
 <div>
     {{ site.data.en.tags.money }}
     {% for tag in site.data.en.tags %}
@@ -44,10 +42,16 @@ layout: default
                         <div class="card-body">
                             <h5 class="card-title text-center">{{ project.name }}</h5>
                             <hr />
-                            <p class="card-text">{{ project.description | newline_to_br }}</p>
+                            <p class="card-text text-justify">{{ project.description | newline_to_br }}</p>
                             <hr />
-                            <div class="text-truncate">
-                                <a href="{{ project.url }}">{{ project.url }}</a>
+
+                            <div class="text-center">
+                                <a class="btn btn-primary" role="button" href="{{ project.url }}">Link to the
+                                    website</a>
+
+                                {% if project.source %}
+                                <a class="btn btn-secondary" role="button" href="{{ project.source }}">Source</a>
+                                {% endif %}
                             </div>
                         </div>
                     </article>
