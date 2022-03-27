@@ -57,8 +57,8 @@ title: Ways to help Ukraine!
     {{ site.data.en.tags.money }}
     {% for tag in site.data.en.tags %}
     <div class="row d-flex {% cycle 'flex-row', 'flex-row-reverse' %}">
-        <section class="accordion p-3 col-md-7">
-            <div class="card">
+        <section class="accordion p-3 col-lg-7">
+            <div class="card text-center">
                 <div class="card-body">
                     <h2 class="card-title">
                         {{ tag.name }}
@@ -78,8 +78,10 @@ title: Ways to help Ukraine!
                     {% if project.tags contains tag.id %}
                     <article class="card my-2">
                         <div class="card-body">
-                            <h5 class="card-title">{{ project.name }}</h5>
+                            <h5 class="card-title text-center">{{ project.name }}</h5>
+                            <hr />
                             <p class="card-text">{{ project.description | newline_to_br }}</p>
+                            <hr />
                             <div class="text-truncate">
                                 <a href="{{ project.url }}">{{ project.url }}</a>
                             </div>
@@ -90,7 +92,7 @@ title: Ways to help Ukraine!
                 </div>
             </div>
         </section>
-        <figure class="figure col-md-5 d-none d-md-block text-center">
+        <figure class="figure col-lg-5 d-none d-lg-block text-center">
             <img src="/assets/{{ tag.img }}" class="figure-img img-fluid rounded" />
         </figure>
     </div>
