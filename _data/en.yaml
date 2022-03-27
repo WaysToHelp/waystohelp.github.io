@@ -5,16 +5,52 @@ tags:
     description: I would like to donate to a charity helping Ukrainian refugees
     img: piggie.png
 
-  - id: volunteering
+  - id: time
     name: I have free time
     description: I would like to help directly by getting involved with volunteering
-    img: toys.png
+    img: free_time.png
 
   - id: driving
     name: I have a car
     description: I have a car and a driving license and am willing to help refugees travel around Europe
     img: doggie.png
 
+  - id: psychology
+    name: I am a psychologist
+    description:
+    img: psychology.png
+
+  - id: design
+    name: I am a graphical designer
+    description:
+    img: graphics.png
+
+  - id: languages
+    name: I am good with languages
+    description:
+    img: languages.png
+
+  - id: medicine
+    name: I am a trained medic
+    description:
+    img: medicine.png
+
+  - id: accomodation
+    name: I offer accomodation
+    description:
+    img: home.png
+
+  - id: IT
+    name: I have IT skills
+    description:
+    img: it.png
+
+  - id: stuff
+    name: I have stuff to donate
+    description:
+    img: stuff.png
+
+projects:
 projects:
   - id: bank-gov-ua
     regions:
@@ -44,6 +80,7 @@ projects:
     name: Estonian Red Cross
     description: Estonian Red Cross is looking for voulnteers to provide first aid
     url: https://redcross.ee/tule-vabatahtlikuks/
+    source: https://kriis.ee/en
     tags:
       - volunteering
 
@@ -58,3 +95,126 @@ projects:
     url: https://business.diia.gov.ua/cases/novini/verified-ukraine-donations-list
     tags:
       - money
+
+  - id: hf-org-pl
+    regions:
+      - pl
+    name: Homo Faber
+    description: Homo Faber are organizing volunteer work in Poland and are looking for professionals willing to donate their time and expertise. They are looking for 
+    url: https://www.hf.org.pl/ao/index.php?id=2552
+    tags:
+      - languages
+      - psychology
+      - design
+      - medicine
+    source: https://pomagamukrainie.gov.pl/#section4
+
+  - id: ukrainians-in-poland
+    regions:
+      - pl
+    name: Union of Ukrainians in Poland
+    description: need translators knowing Polish and Ukrainian
+    url: https://www.facebook.com/zuwp.oup/posts/5047066595336247
+    tags:
+      - languages
+    source: https://pomagamukrainie.gov.pl/#section4
+
+  - id: polish-psychologists-for-ukraine
+    regions:
+      - pl
+    name: Psychologists for Ukraine
+    description: Facebook group for psychologists providing free help to Ukrainians
+    url: https://www.facebook.com/groups/828841698514895
+    tags:
+      - psychology
+    source: https://pomagamukrainie.gov.pl/#section4
+
+  - id: hospitallers
+    regions:
+      - ua
+    name: Hospitallers
+    description: Volunteering medics working on the frontline
+    url: https://www.facebook.com/hospitallers/
+    tags:
+      - medicine
+
+  - id: techtotherescue
+    regions: worldwide
+    name: "#TechToTheRescue"
+    description: Ukrainian organization is looking for people with all kinds of IT skills. You can either participate in 2-week Sprint or provide consultations to Ukrainian non-profits. Companies can participate as well, providing pro-bono work.
+    url: https://techtotherescue.org/tech/tech-for-ukraine
+    source: https://gurt.org.ua/news/recent/77040/
+    tags:
+      - IT
+      - design
+      - languages
+
+  - id: blue-yellow
+    regions:
+      - lt
+    name: Blue/Yellow
+    description: Lithuanian charity
+    url: https://www.blue-yellow.lt/
+    source: http://www.mond.gov.lt/lt/duk_3125.html
+    tags:
+      - money
+
+  - id: stipruskartu-lt
+    regions:
+      - lt
+    name: Strong Together
+    description: assistance for war refugees from Ukraine in Lithuania
+    url: https://stipruskartu.lt/
+    source: http://www.mond.gov.lt/lt/duk_3125.html
+    tags:
+      - accomodation
+      - driving
+
+  - id: lietuvagyvunams-com
+    regions:
+      - lt
+    name: Lietuva - gyvūnams
+    description:
+    url: https://lietuvagyvunams.com/
+    source: http://www.mond.gov.lt/lt/duk_3125.html
+    tags:
+      - accomodation
+
+  - id: pagulasabi-ee
+    regions:
+      - ee
+    name: Estonian Refugee Assistance
+    description: looking for people to help refugees integrate into Estonian society, be language buddies or help find work
+    url: https://www.pagulasabi.ee/tule-vabatahtlikuks
+    source: https://kriis.ee/en/help-ukraine
+    tags:
+      - languages
+      - accomodation
+
+  - id: host4ukraine-com
+    regions:
+      - europe
+    name: Host4Ukraine
+    description: platform where Ukrainians looking for temporary housing can post their location and locals can provide living space
+    url: https://www.host4ukraine.com/
+    tags:
+      - accomodation
+
+  - id: shelter4ua
+    regions:
+      - europe
+    name: Shelter4UA
+    description: platform where Ukrainians looking for temporary housing can post their location and locals can provide living space
+    url: https://sites.google.com/view/shelterforukraine/home?authuser=0
+    tags:
+      - accomodation
+
+  - id: unitedforukraine-org
+    regions:
+      - europe
+    name: United For Ukraine
+    description:
+    url: https://www.unitedforukraine.org/contacts
+    tags:
+      - accomodation
+      - languages
