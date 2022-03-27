@@ -2,52 +2,52 @@
 tags:
   - id: money
     name: I have money
-    description: I would like to donate to a charity helping Ukrainian refugees
+    description: Donating money is the easiest way of providing support as there are so many charities and volunteer organizations accepting donations. Here are just a few of them.
     img: piggie.png
 
   - id: time
     name: I have free time
-    description: I would like to help directly by getting involved with volunteering
+    description: During the crisis there is never enough time and many organizations doing the field work are desperate to get any help they can.
     img: free_time.png
 
   - id: driving
     name: I have a car
-    description: I have a car and a driving license and am willing to help refugees travel around Europe
+    description: Refugees might need to travel large distances in order to get to their relatives. Driving them from/to the border or even to a neighboring country is a valuable work.
     img: doggie.png
 
   - id: psychology
     name: I am a psychologist
-    description:
+    description: Many refugees are traumatized by the war, personal loss, uncertainty, anxiety and loneliness. Professional psychological help is of essence.
     img: psychology.png
 
   - id: design
     name: I am a graphical designer
-    description:
+    description: Designers are highly valued for their ability to communicate across language barriers, borders and ages. Charities also need designers in order to create clear infographics for raising funds and awareness.
     img: graphics.png
 
   - id: languages
     name: I am good with languages
-    description:
+    description: Most Ukrainian refugees speak either Ukrainian or Russian while their foreign language skills might be a bit rusty. If you know these languages you might be able to help even if you're not a trained translator.
     img: languages.png
 
   - id: medicine
     name: I am a trained medic
-    description:
+    description: Many refugees need medical help due to injuries, stress, inadequate living conditions, missed doctor's appointments. More medical professionals are needed in Ukraine and refugee camps.
     img: medicine.png
 
   - id: accomodation
     name: I offer accomodation
-    description:
+    description: Generally refugees get government-assisted housing once officially recognized. However this process might take some time and it is scary going to a foreign country wihout assurance that you'll have a roof over your head once there.
     img: home.png
 
   - id: IT
     name: I have IT skills
-    description:
+    description: Although most of the hurt and pain undoubtedly comes from the physical attacks, there is a cyberwar going on as well. IT professionals can help Ukraine by securing critical systems, protecting government resources, NGOs and independent media.
     img: it.png
 
   - id: stuff
     name: I have stuff to donate
-    description:
+    description: Kid's toys and used clothes are the stereothypical donations to those in need, but in practice what refugees miss the most are everyday things which they couldn't take along (for example kitchen utensils).
     img: stuff.png
 
 projects:
@@ -116,6 +116,7 @@ projects:
       - psychology
       - design
       - medicine
+      - time
     source: https://pomagamukrainie.gov.pl/#section4
 
   - id: ukrainians-in-poland
@@ -199,6 +200,7 @@ projects:
     tags:
       - languages
       - accomodation
+      - time
 
   - id: host4ukraine-com
     regions:
@@ -248,85 +250,73 @@ projects:
     tags:
       - money
 
-           
   - id: pagulasabi-ee
     regions:
       - ee
     name: Estonian Refugee Council
     description: Volunteers participate in Refugee Aid activities primarily as adaptation mentors and language partners, but we also offer refugees the opportunity to work as mentors.
     url: https://www.pagulasabi.ee/tule-vabatahtlikuks
-    source: 
+    source:
     tags:
       - free
       - languages
-      
-                
+
   - id: redcross-ee
     regions:
       - ee
     name: Estonian Red Cross
-    description: The Estonian Red Cross operates throughout Estonia: we teach first aid, we work on prevention, we help the most vulnerable members of society.
+    description: "The Estonian Red Cross operates throughout Estonia: we teach first aid, we work on prevention, we help the most vulnerable members of society."
     url: redcross.ee/tule-vabatahtlikuks
-    source: 
+    source:
     tags:
       - free
       - medicine
-      
-                      
+
   - id: palidzibaukrainai-lv
     regions:
       - lv
     name: Tavi Draugi
     description: The association Tavi Draugi organize charity and other events (volunteering, donate goods etc)
     url: https://www.palidzibaukrainai.lv/?lang=en
-    source: 
+    source:
     tags:
       - free
       - driving
       - money
       - volunteering
-      
-                           
+
   - id: ukraine-latvia-com
     regions:
       - lv
     name: Ukraine-Latvia
     description: The official website of assistance to refugees from ukraine to latvia
     url: https://www.ukraine-latvia.com/
-    source: 
+    source:
     tags:
       - free
       - driving
       - money
       - volunteering
       - accomodation
-      
-                                
+
   - id: creativesforukraine-com
     regions:
       - lt
-    name: Creatives for Ukraine 
+    name: Creatives for Ukraine
     description: This is an open platform for creatives from around the world showing solidarity with the people of Ukraine, who are fighting for the world as we know it.
     url: https://creativesforukraine.com/about/
-    source: 
+    source:
     tags:
       - free
       - volunteering
-      
-                                     
+
   - id: facebook-com
     regions:
       - lv
     name: Facebook.com
     description: Assistance to Ukrainians in everyday matters
     url: https://www.facebook.com/groups/1716299315047796
-    source: 
+    source:
     tags:
       - free
       - volunteering
-     
-      
-      
-      
-      
-      
