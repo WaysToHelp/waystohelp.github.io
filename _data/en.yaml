@@ -283,6 +283,7 @@ projects:
       - free
       - driving
       - money
+      -stuff
       - volunteering
 
   - id: ukraine-latvia-com
@@ -298,6 +299,7 @@ projects:
       - money
       - volunteering
       - accomodation
+      - stuff
 
   - id: creativesforukraine-com
     regions:
