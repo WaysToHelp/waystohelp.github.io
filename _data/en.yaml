@@ -3,14 +3,17 @@ tags:
   - id: money
     name: I have money
     description: I would like to donate to a charity helping Ukrainian refugees
+    img: piggie.png
 
   - id: volunteering
     name: I have free time
     description: I would like to help directly by getting involved with volunteering
+    img: toys.png
 
   - id: driving
     name: I have a car
     description: I have a car and a driving license and am willing to help refugees travel around Europe
+    img: doggie.png
 
 projects:
   - id: bank-gov-ua

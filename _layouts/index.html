@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Everybody can help Ukraine!
+title: Ways to help Ukraine!
 ---
 
 <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -13,7 +13,8 @@ title: Everybody can help Ukraine!
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-lg-0 d-flex w-100">
                 <li class="nav-item me-auto">
-                    <a class="nav-link" aria-current="page" href="http://rigatechgirls.com/hackathon">Riga
+                    <a class="nav-link btn btn-light btn-sm" aria-current="page"
+                        href="http://rigatechgirls.com/hackathon">Riga
                         TechGirls</a>
                 </li>
                 <li class="nav-item">
@@ -23,18 +24,40 @@ title: Everybody can help Ukraine!
                     </select>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link btn btn-light btn-sm" href="#">Contact us</a>
                 </li>
             </ul>
         </div>
 </nav>
 
-<h1 class="text-center m-5">{{ page.title}}</h1>
+<!--
+<div class="p-4 p-md-5 mb-4 text-white rounded bg-dark"
+    style="background-image: url('/assets/lead.jpg'); background-size: 100% 100%">
+    <div class="col-md-8 col-xl-6 p-4" style="background-color: #000000a6">
+        <h1 class="display-4 background-color: grey"><strong>#WaysToHelp</strong></h1>
+        <p class="lead my-3">
+            All of us want to help Ukrainians. <br>
+            Every little action counts.<br>
+            What's your way?</p>
+    </div>
+</div>
+-->
+
+<div class="p-4 p-md-5 rounded text-center m-auto">
+    <div class="p-4">
+        <h1 class="display-4 fw-bold">#WaysToHelp</h1>
+        <p class="lead my-3">
+            All of us want to help Ukrainians. <br>
+            Every little action counts.<br>
+            What's your way?</p>
+    </div>
+</div>
+
 <div>
     {{ site.data.en.tags.money }}
     {% for tag in site.data.en.tags %}
     <div class="row d-flex {% cycle 'flex-row', 'flex-row-reverse' %}">
-        <section class="accordion p-3 col-md-8">
+        <section class="accordion p-3 col-md-7">
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title">
@@ -43,7 +66,7 @@ title: Everybody can help Ukraine!
                     <p class="card-text">
                         {{ tag.description | newline_to_br }}
                     </p>
-                    <button type="button" class="btn btn-outline-secondary stretched-link" data-bs-toggle="collapse"
+                    <button type="button" class="btn btn-secondary stretched-link" data-bs-toggle="collapse"
                         data-bs-target="#collapse-{{ tag.id }}">
                         Shows ways to help
                     </button>
@@ -67,8 +90,8 @@ title: Everybody can help Ukraine!
                 </div>
             </div>
         </section>
-        <figure class="figure col-md-4 p-2 d-none d-md-block text-center">
-            <img src="https://via.placeholder.com/200" class="figure-img img-fluid rounded" />
+        <figure class="figure col-md-5 d-none d-md-block text-center">
+            <img src="/assets/{{ tag.img }}" class="figure-img img-fluid rounded" />
         </figure>
     </div>
     {% endfor %}
