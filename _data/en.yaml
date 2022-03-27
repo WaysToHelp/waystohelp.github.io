@@ -58,7 +58,7 @@ projects:
     description: >
       The National Bank of Ukraine opened a special account to raise funds for Ukraine’s Armed Forces.
 
-      Transfers in both foreign currency (U.S. dollars, euros, UK pounds) and hryvnias possible
+      Transfers in both foreign currency (U.S. dollars, euros, UK pounds) and hryvnias possible.
     url: https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi
     tags:
       - money
@@ -87,7 +87,7 @@ projects:
     regions:
       - ee
     name: Estonian Red Cross
-    description: Estonian Red Cross is looking for voulnteers to provide first aid
+    description: Estonian Red Cross is looking for voulnteers to provide first aid.
     url: https://redcross.ee/tule-vabatahtlikuks/
     source: https://kriis.ee/en
     tags:
@@ -109,7 +109,7 @@ projects:
     regions:
       - pl
     name: Homo Faber
-    description: Homo Faber are organizing volunteer work in Poland and are looking for professionals willing to donate their time and expertise. They are looking for
+    description: Homo Faber are organizing volunteer work in Poland and are looking for professionals willing to donate their time and expertise. 
     url: https://www.hf.org.pl/ao/index.php?id=2552
     tags:
       - languages
@@ -123,7 +123,7 @@ projects:
     regions:
       - pl
     name: Union of Ukrainians in Poland
-    description: need translators knowing Polish and Ukrainian
+    description: People need translators knowing Polish and Ukrainian.
     url: https://www.facebook.com/zuwp.oup/posts/5047066595336247
     tags:
       - languages
@@ -133,7 +133,7 @@ projects:
     regions:
       - pl
     name: Psychologists for Ukraine
-    description: Facebook group for psychologists providing free help to Ukrainians
+    description: Facebook group for psychologists providing free help to Ukrainians.
     url: https://www.facebook.com/groups/828841698514895
     tags:
       - psychology
@@ -143,7 +143,7 @@ projects:
     regions:
       - ua
     name: Hospitallers
-    description: Volunteering medics working on the frontline
+    description: Volunteering medics working on the frontline.
     url: https://www.facebook.com/hospitallers/
     tags:
       - medicine
@@ -163,7 +163,7 @@ projects:
     regions:
       - lt
     name: Blue/Yellow
-    description: Lithuanian charity
+    description: Lithuanian charity.
     url: https://www.blue-yellow.lt/
     source: http://www.mond.gov.lt/lt/duk_3125.html
     tags:
@@ -173,7 +173,7 @@ projects:
     regions:
       - lt
     name: Strong Together
-    description: assistance for war refugees from Ukraine in Lithuania
+    description: Assistance for war refugees from Ukraine in Lithuania.
     url: https://stipruskartu.lt/
     source: http://www.mond.gov.lt/lt/duk_3125.html
     tags:
@@ -184,7 +184,7 @@ projects:
     regions:
       - lt
     name: Lietuva - gyvūnams
-    description:
+    description: Lithuania for Animals is a non-profit charitable organization. The goal of the organization is to support animal shelters throughout Lithuania.
     url: https://lietuvagyvunams.com/
     source: http://www.mond.gov.lt/lt/duk_3125.html
     tags:
@@ -194,7 +194,7 @@ projects:
     regions:
       - ee
     name: Estonian Refugee Assistance
-    description: looking for people to help refugees integrate into Estonian society, be language buddies or help find work
+    description: Looking for people to help refugees integrate into Estonian society, be language buddies or help find work.
     url: https://www.pagulasabi.ee/tule-vabatahtlikuks
     source: https://kriis.ee/en/help-ukraine
     tags:
@@ -206,7 +206,7 @@ projects:
     regions:
       - europe
     name: Host4Ukraine
-    description: platform where Ukrainians looking for temporary housing can post their location and locals can provide living space
+    description: Platform where Ukrainians looking for temporary housing can post their location and locals can provide living space.
     url: https://www.host4ukraine.com/
     tags:
       - accomodation
@@ -215,7 +215,7 @@ projects:
     regions:
       - europe
     name: Shelter4UA
-    description: platform where Ukrainians looking for temporary housing can post their location and locals can provide living space
+    description: Platform where Ukrainians looking for temporary housing can post their location and locals can provide living space.
     url: https://sites.google.com/view/shelterforukraine/home?authuser=0
     tags:
       - accomodation
@@ -234,7 +234,7 @@ projects:
     regions:
       - eu
     name: Who we are
-    description: Foundation for psychological and psychosocial assistance to children affected by the war
+    description: Foundation for psychological and psychosocial assistance to children affected by the war.
     url: https://voices.org.ua/en/who-we-are/
     source:
     tags:
@@ -244,7 +244,7 @@ projects:
     regions:
       - eu
     name: The Ukrainian Red Cross
-    description: Donate to support the Ukrainian Red Cross to help civilians in this difficult time for Ukraine
+    description: Donate to support the Ukrainian Red Cross to help civilians in this difficult time for Ukraine.
     url: https://redcross.org.ua/en/2022/02/donate-to-support-the-ukrainian-red-cross-to-help-civilians-in-this-difficult-time-for-ukraine
     source:
     tags:
@@ -265,7 +265,7 @@ projects:
     regions:
       - ee
     name: Estonian Red Cross
-    description: "The Estonian Red Cross operates throughout Estonia: we teach first aid, we work on prevention, we help the most vulnerable members of society."
+    description: The Estonian Red Cross operates throughout Estonia: we teach first aid, we work on prevention, we help the most vulnerable members of society.
     url: redcross.ee/tule-vabatahtlikuks
     source:
     tags:
@@ -276,7 +276,7 @@ projects:
     regions:
       - lv
     name: Tavi Draugi
-    description: The association Tavi Draugi organize charity and other events (volunteering, donate goods etc)
+    description: The association Tavi Draugi organize charity and other events (volunteering, donate goods etc).
     url: https://www.palidzibaukrainai.lv/?lang=en
     source:
     tags:
@@ -290,7 +290,7 @@ projects:
     regions:
       - lv
     name: Ukraine-Latvia
-    description: The official website of assistance to refugees from ukraine to latvia
+    description: The official website of assistance to refugees from ukraine to latvia.
     url: https://www.ukraine-latvia.com/
     source:
     tags:
@@ -316,7 +316,7 @@ projects:
     regions:
       - lv
     name: Facebook.com
-    description: Assistance to Ukrainians in everyday matters
+    description: Assistance to Ukrainians in everyday matters.
     url: https://www.facebook.com/groups/1716299315047796
     source:
     tags:
