@@ -224,7 +224,7 @@ projects:
     regions:
       - europe
     name: United For Ukraine
-    description:
+    description: United for Ukraine is developed by volunteers for the purposes of providing information and facilitating access to humanitarian assistance for people affected by the crisis in Ukraine.
     url: https://www.unitedforukraine.org/contacts
     tags:
       - accomodation
