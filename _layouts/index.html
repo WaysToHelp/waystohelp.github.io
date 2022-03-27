@@ -38,15 +38,15 @@ title: Everybody can help Ukraine!
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title">
-                        <div class="stretched-link" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapse-{{ tag.id }}">
-                            {{ tag.name }}
-                        </div>
+                        {{ tag.name }}
                     </h2>
                     <p class="card-text">
-                        {{ tag.description }}
+                        {{ tag.description | newline_to_br }}
                     </p>
-                    <a href="#" class="btn btn-primary">Show ways to help</a>
+                    <button type="button" class="btn btn-outline-secondary stretched-link" data-bs-toggle="collapse"
+                        data-bs-target="#collapse-{{ tag.id }}">
+                        Shows ways to help
+                    </button>
                 </div>
             </div>
             <div class="accordion">
@@ -56,7 +56,7 @@ title: Everybody can help Ukraine!
                     <article class="card">
                         <div class="card-body">
                             <h5 class="card-title">{{ project.name }}</h5>
-                            <p class="card-text">{{ project.description }}</p>
+                            <p class="card-text">{{ project.description | newline_to_br }}</p>
                             <div class="text-truncate">
                                 <a href="{{ project.url }}">{{ project.url }}</a>
                             </div>
