@@ -269,7 +269,7 @@ projects:
     url: redcross.ee/tule-vabatahtlikuks
     source:
     tags:
-      - free
+      - time
       - medicine
 
   - id: palidzibaukrainai-lv
@@ -280,7 +280,7 @@ projects:
     url: https://www.palidzibaukrainai.lv/?lang=en
     source:
     tags:
-      - free
+      - time
       - driving
       - money
       - stuff
@@ -294,7 +294,7 @@ projects:
     url: https://www.ukraine-latvia.com/
     source:
     tags:
-      - free
+      - time
       - driving
       - money
       - volunteering
@@ -309,7 +309,7 @@ projects:
     url: https://creativesforukraine.com/about/
     source:
     tags:
-      - free
+      - time
       - volunteering
 
   - id: facebook-com
@@ -320,6 +320,6 @@ projects:
     url: https://www.facebook.com/groups/1716299315047796
     source:
     tags:
-      - free
+      - time
       - volunteering
       - stuff
